@@ -50,7 +50,7 @@
     #hero {
         height: 70vh;
         padding: 0 80px;
-        background-position: top 30% right 30%;
+        background-position: top 25px right 40%;
     }
 
     #feature {
@@ -90,6 +90,9 @@
     }
 }
 
+
+/* **********        For IphoneX      *************** */
+
 @media (max-width: 477px){
     .section-p1 {
         padding: 20px;
@@ -107,7 +110,7 @@
     }
     #hero {
         padding: 0 20px;
-        background-position: 55%;
+        background-position: 60%;
     }
     
     #feature .fe-box {
@@ -149,5 +152,42 @@
     }
     footer .copyright {
         text-align: start;
+    }
+
+    /* For Single Product */
+
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    #prodetails .single-pro-img {
+        width: 100%;
+       
+    }
+    #prodetails .single-pro-detail {
+        width: 100%;
+        padding: 30px;
+    }
+
+    /* For blog Page */
+
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #blog .blog-details {
+        width: 100%;
     }
 }
